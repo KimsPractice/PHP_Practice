@@ -86,3 +86,10 @@ API(Application Programming Interface)
 
 라이브러리(library)
   도서관이라는 뜻 그대로 수많은 API들이 모여있는곳을 라이브러리라고한다.
+
+파일 체크 문제방샐시 권한 체크
+  파일제어시 권한에 의해서 파일을 제어하지 못할수도 있다. 그때 php 에서 제공하는 함수
+  is_readable(); 읽기여부
+  is_writable(); 쓰기여부
+  file_exists(); 존재여부
+  등으로 체크한 후에 파일제어를 해보도록 한다.
