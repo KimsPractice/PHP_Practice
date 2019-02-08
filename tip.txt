@@ -93,3 +93,9 @@ API(Application Programming Interface)
   is_writable(); 쓰기여부
   file_exists(); 존재여부
   등으로 체크한 후에 파일제어를 해보도록 한다.
+
+GD library
+  GD가 설치되어있는가에 대한 가장 간편한 방법은 phpinfo를 활용하여 enable 상태를 확인하는것이다. 만약 설치되어 있지않다면 php.ini에 가서 extension=php_gd2.dll가 주석을 지우고 확장파일디렉토리의 경로extension_dir="경로"가 제대로 지정되어 있는지 확인한다.
+
+header
+  header 은 http 통신에서 파일의 포멧을 지정하여 통신하기에 용이하게 해준다. php에서 header를 지정해줄때에는 가장 첫줄에 작성해줘야하며, 공백을 주어도 페이지에 표시되는 데이터이기 떄문에 오류가 발생한다. 물론 연속된 header는 사용가능하다.
