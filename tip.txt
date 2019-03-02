@@ -121,4 +121,4 @@ Standard PHP Library(SPL)
 
 private의 접근
   private로 외부로부터의 직접접근이 불가능한 데이터는 함수를 통한 접근은 가능하다
-  ex) getter setter
+  ex) getter settere
